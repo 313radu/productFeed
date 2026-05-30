@@ -5,7 +5,7 @@
     <link>http://localhost/products</link>
     <description>A demo product feed for testing XML feed implementation</description>
 
-    <item>
+ <item>
       <g:id>PROD-001</g:id>
       <g:title>Wireless Bluetooth Headphones</g:title>
       <g:description>Over-ear wireless headphones with active noise cancellation, 30-hour battery life, and premium sound quality.</g:description>
@@ -16,8 +16,8 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:brand>SoundWave</g:brand>
-      <g:google_product_category>Electronics > Audio > Headphones</g:google_product_category>
-      <g:product_type>Electronics > Headphones</g:product_type>
+      <g:google_product_category>Electronics &gt; Audio &gt; Headphones</g:google_product_category>
+      <g:product_type>Electronics &gt; Headphones</g:product_type>
       <g:identifier_exists>yes</g:identifier_exists>
       <g:mpn>SW-BH-001</g:mpn>
       <g:color>Midnight Black</g:color>
@@ -35,8 +35,8 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:brand>SoundWave</g:brand>
-      <g:google_product_category>Electronics > Audio > Headphones</g:google_product_category>
-      <g:product_type>Electronics > Headphones</g:product_type>
+      <g:google_product_category>Electronics &gt; Audio &gt; Headphones</g:google_product_category>
+      <g:product_type>Electronics &gt; Headphones</g:product_type>
       <g:identifier_exists>yes</g:identifier_exists>
       <g:mpn>SW-BH-002</g:mpn>
       <g:color>Pearl White</g:color>
@@ -53,8 +53,8 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:brand>KeyForge</g:brand>
-      <g:google_product_category>Electronics > Computers > Computer Peripherals > Keyboards</g:google_product_category>
-      <g:product_type>Electronics > Keyboards</g:product_type>
+      <g:google_product_category>Electronics &gt; Computers &gt; Computer Peripherals &gt; Keyboards</g:google_product_category>
+      <g:product_type>Electronics &gt; Keyboards</g:product_type>
       <g:identifier_exists>yes</g:identifier_exists>
       <g:mpn>KF-MK-RGB</g:mpn>
       <g:color>Black</g:color>
@@ -70,11 +70,70 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:brand>ConnectPro</g:brand>
-      <g:google_product_category>Electronics > Computers > Computer Accessories</g:google_product_category>
-      <g:product_type>Electronics > USB Hubs</g:product_type>
+      <g:google_product_category>Electronics &gt; Computers &gt; Computer Accessories</g:google_product_category>
+      <g:product_type>Electronics &gt; USB Hubs</g:product_type>
       <g:identifier_exists>yes</g:identifier_exists>
       <g:mpn>CP-HUB-7C</g:mpn>
       <g:color>Space Grey</g:color>
+    </item>
+
+    <item>
+      <g:id>PROD-005</g:id>
+      <g:title>4K Gaming Monitor 27-inch</g:title>
+      <g:description>27-inch 4K UHD IPS gaming monitor with 144Hz refresh rate, 1ms response time, HDR400, FreeSync Premium, and adjustable stand. Perfect for gaming and creative work.</g:description>
+      <g:link>http://localhost/products/4k-gaming-monitor</g:link>
+      <g:image_link>https://picsum.photos/seed/monitor4k/600/600</g:image_link>
+      <g:price>399.99 USD</g:price>
+      <g:sale_price>329.99 USD</g:sale_price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>VisionX</g:brand>
+      <g:google_product_category>Electronics &gt; Computers &gt; Computer Monitors</g:google_product_category>
+      <g:product_type>Electronics &gt; Monitors &gt; Gaming Monitors</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>VX-GM27-4K</g:mpn>
+      <g:color>Black</g:color>
+      <g:item_group_id>monitors-gaming</g:item_group_id>
+      <g:shipping_weight>5.8 kg</g:shipping_weight>
+    </item>
+
+    <item>
+      <g:id>PROD-006</g:id>
+      <g:title>Portable SSD 1TB USB-C</g:title>
+      <g:description>Ultra-fast portable SSD with 1TB storage, USB-C 3.2 Gen 2 interface (1050MB/s read), shock-resistant casing, and pocket-size form factor. Compatible with Mac, PC, iPhone 15+, iPad Pro.</g:description>
+      <g:link>http://localhost/products/portable-ssd-1tb</g:link>
+      <g:image_link>https://picsum.photos/seed/portablessd/600/600</g:image_link>
+      <g:price>109.99 USD</g:price>
+      <g:sale_price>89.99 USD</g:sale_price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>SwiftDrive</g:brand>
+      <g:google_product_category>Electronics &gt; Computers &gt; Computer Storage &gt; External Storage Devices</g:google_product_category>
+      <g:product_type>Electronics &gt; Storage &gt; Portable SSD</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>SD-PSSD-1TB</g:mpn>
+      <g:color>Silver</g:color>
+      <g:item_group_id>portable-ssd</g:item_group_id>
+      <g:shipping_weight>0.06 kg</g:shipping_weight>
+    </item>
+
+    <item>
+      <g:id>PROD-007</g:id>
+      <g:title>Wireless Ergonomic Mouse</g:title>
+      <g:description>Vertical ergonomic wireless mouse with 2.4GHz connection, 6 programmable buttons, 800–2400 DPI adjustable, rechargeable via USB-C, and 60-day battery life. Reduces wrist strain by 57%.</g:description>
+      <g:link>http://localhost/products/wireless-ergonomic-mouse</g:link>
+      <g:image_link>https://picsum.photos/seed/ergomouse/600/600</g:image_link>
+      <g:price>59.99 USD</g:price>
+      <g:availability>out stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>ErgoTech</g:brand>
+      <g:google_product_category>Electronics &gt; Computers &gt; Computer Peripherals &gt; Computer Mice</g:google_product_category>
+      <g:product_type>Electronics &gt; Computer Mice &gt; Ergonomic</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>ET-WEM-BLK</g:mpn>
+      <g:color>Matte Black</g:color>
+      <g:item_group_id>mice-ergonomic</g:item_group_id>
+      <g:shipping_weight>0.18 kg</g:shipping_weight>
     </item>
   </channel>
 </rss>

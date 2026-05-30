@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Sample Product Feed</title>
+    <link>http://localhost/products</link>
+    <description>A demo product feed for testing XML feed implementation</description>
+
+    <item>
+      <g:id>PROD-001</g:id>
+      <g:title>Wireless Bluetooth Headphones</g:title>
+      <g:description>Over-ear wireless headphones with active noise cancellation, 30-hour battery life, and premium sound quality.</g:description>
+      <g:link>http://localhost/products/wireless-headphones</g:link>
+      <g:image_link>https://picsum.photos/seed/headphones/600/600</g:image_link>
+      <g:price>89.99 USD</g:price>
+      <g:sale_price>69.99 USD</g:sale_price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>SoundWave</g:brand>
+      <g:google_product_category>Electronics > Audio > Headphones</g:google_product_category>
+      <g:product_type>Electronics > Headphones</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>SW-BH-001</g:mpn>
+      <g:color>Midnight Black</g:color>
+      <g:item_group_id>headphones-bh</g:item_group_id>
+    </item>
+
+    <item>
+      <g:id>PROD-002</g:id>
+      <g:title>Wireless Bluetooth Headphones - White</g:title>
+      <g:description>Over-ear wireless headphones with active noise cancellation, 30-hour battery life, and premium sound quality.</g:description>
+      <g:link>http://localhost/products/wireless-headphones-white</g:link>
+      <g:image_link>https://picsum.photos/seed/headphones-white/600/600</g:image_link>
+      <g:price>89.99 USD</g:price>
+      <g:sale_price>69.99 USD</g:sale_price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>SoundWave</g:brand>
+      <g:google_product_category>Electronics > Audio > Headphones</g:google_product_category>
+      <g:product_type>Electronics > Headphones</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>SW-BH-002</g:mpn>
+      <g:color>Pearl White</g:color>
+      <g:item_group_id>headphones-bh</g:item_group_id>
+    </item>
+
+    <item>
+      <g:id>PROD-003</g:id>
+      <g:title>Mechanical Gaming Keyboard - RGB</g:title>
+      <g:description>Full-size mechanical keyboard with RGB lighting and aluminium frame.</g:description>
+      <g:link>http://localhost/products/mechanical-keyboard-rgb</g:link>
+      <g:image_link>https://picsum.photos/seed/keyboard/600/600</g:image_link>
+      <g:price>129.99 USD</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>KeyForge</g:brand>
+      <g:google_product_category>Electronics > Computers > Computer Peripherals > Keyboards</g:google_product_category>
+      <g:product_type>Electronics > Keyboards</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>KF-MK-RGB</g:mpn>
+      <g:color>Black</g:color>
+    </item>
+
+    <item>
+      <g:id>PROD-004</g:id>
+      <g:title>USB-C Hub 7-in-1</g:title>
+      <g:description>USB-C hub with HDMI, USB-A, USB-C PD, and card readers.</g:description>
+      <g:link>http://localhost/products/usb-c-hub</g:link>
+      <g:image_link>https://picsum.photos/seed/usbhub/600/600</g:image_link>
+      <g:price>49.99 USD</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>ConnectPro</g:brand>
+      <g:google_product_category>Electronics > Computers > Computer Accessories</g:google_product_category>
+      <g:product_type>Electronics > USB Hubs</g:product_type>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:mpn>CP-HUB-7C</g:mpn>
+      <g:color>Space Grey</g:color>
+    </item>
+  </channel>
+</rss>
